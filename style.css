@@ -51,6 +51,7 @@ nav{
     float: right;
     align-items: center;
     color: white;
+    margin-right: 66px;
 }
 nav h2:nth-child(1):hover, nav h2:nth-child(2):hover{
     color:red;
@@ -60,4 +61,27 @@ nav h2:nth-child(3):hover{
 }
 nav h2:nth-child(4):hover{
     color:green;
+}
+/* Main section */
+main{
+    /* background-color: green; */
+    width: 1666px;
+    height: 550px;
+    top:50px;
+    left:20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+.variedades{
+    background-color: white;
+    Width:100%; 
+    Height:80%;
+    border-radius: 3%;
+}
+.delivery{
+    Width:100%; 
+    Height:80%;
+    border-radius: 3%;
 }
