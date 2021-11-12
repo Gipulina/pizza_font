@@ -92,8 +92,13 @@ main{
     width: 100%;
     height: 100%;
 }
-#podio-pizzas > *{
-    border: 3px red solid;
+ol li{
+    margin: 5px 0 4px 0;
+}
+article h2 {
+    position: relative;
+    left:40px;
+    font-size: 20px;
 }
 #podio-pizzas h1{
     font-size: 20px;
@@ -102,9 +107,24 @@ main{
 }
 #podio-pizzas img{
     float: right;
+    height: 113px;
+    position: absolute;
+    right: 42px;
 }
 #podio-pizzas article{
     float: left;
+    position: relative;
+    left:25px;
+    color:black;
+    font-weight: 700;
+}
+.pizzas{
+    /* border: 8px black dotted; */
+    display: flex;
+    /* justify-content: center; */
+    position: relative;
+    top:28px;
+    align-items: center;
 }
 /* Footer */
 footer{
