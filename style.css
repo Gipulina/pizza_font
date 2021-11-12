@@ -67,7 +67,7 @@ main{
     /* background-color: green; */
     width: 1221px;
     height: 260px;
-    border: 3px solid green;
+    /* border: 3px solid green; */
     top:50px;
     left:20px;
     position: relative;
@@ -82,7 +82,7 @@ main{
     border-radius: 3%;
 }
 .delivery{
-    background-image: url(./img/delivery.png);
+    /* background-image: url(./img/delivery.png); */
     Width:490px; 
     Height:350px;
     border-radius: 3%;
