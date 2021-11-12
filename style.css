@@ -65,8 +65,9 @@ nav h2:nth-child(4):hover{
 /* Main section */
 main{
     /* background-color: green; */
-    width: 1666px;
-    height: 550px;
+    width: 1221px;
+    height: 260px;
+    border: 3px solid green;
     top:50px;
     left:20px;
     position: relative;
@@ -76,13 +77,14 @@ main{
 }
 .variedades{
     background-color: white;
-    Width:100%; 
-    Height:80%;
+    Width:490px; 
+    Height:350px;
     border-radius: 3%;
 }
 .delivery{
-    Width:100%; 
-    Height:80%;
+    background-image: url(./img/delivery.png);
+    Width:490px; 
+    Height:350px;
     border-radius: 3%;
 }
 /* Podio pizzas */
@@ -111,6 +113,7 @@ footer{
     position:absolute;
     bottom:0;
     width: 100%;
+    top:528px;
 }
 .footer-title{
     float:right;
