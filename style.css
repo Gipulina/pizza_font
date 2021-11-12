@@ -1,0 +1,36 @@
+body{
+    background: #E5E5E5;
+    box-sizing: border-box;  
+    margin:0;
+}
+header{
+    width: auto;
+    background-color: #222222;
+    height:200px;
+    margin:0;
+    position: relative;
+    top:-10px;
+}
+.title{
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left:50px;
+    margin-top:10px;
+    background-color: #222222;
+}
+.title>*{
+    margin-right: 10px;
+    background-color: #222222;
+}
+.title h1:nth-child(2){
+    color:green;
+}
+.title h1:nth-child(3){
+    color:white;
+}
+.title h1:nth-child(4){
+    color:red;
+}
